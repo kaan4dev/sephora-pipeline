@@ -1,0 +1,11 @@
+requests==2.32.3
+pandas==2.2.2
+pyarrow
+python-dotenv==1.0.1
+fastparquet==2024.5.0
+pytest==8.3.2
+pytest-mock==3.14.0
+pyspark==3.5.1
+azure-storage-file-datalake==12.16.0
+logging
+pandas
