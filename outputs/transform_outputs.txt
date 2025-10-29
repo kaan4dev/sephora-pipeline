@@ -1,0 +1,39 @@
+venv) kaancakir@Kaans-MacBook-Air sephora-pipeline % python src/transform.py 
+2025-10-29 18:06:18,388 [INFO] Working directory set to: /Users/kaancakir/data_projects_local/sephora-pipeline
+25/10/29 18:06:19 WARN Utils: Your hostname, Kaans-MacBook-Air.local resolves to a loopback address: 127.0.0.1; using 172.16.1.20 instead (on interface en0)
+25/10/29 18:06:19 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+25/10/29 18:06:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2025-10-29 18:06:20,143 [INFO] Reading data from: /Users/kaancakir/data_projects_local/sephora-pipeline/data/raw_parquet/sephora/raw_sephora_website_dataset.parquet
+root                                                                            
+ |-- id: long (nullable = true)
+ |-- brand: string (nullable = true)
+ |-- category: string (nullable = true)
+ |-- name: string (nullable = true)
+ |-- size: string (nullable = true)
+ |-- rating: double (nullable = true)
+ |-- number_of_reviews: long (nullable = true)
+ |-- love: long (nullable = true)
+ |-- price: double (nullable = true)
+ |-- value_price: double (nullable = true)
+ |-- URL: string (nullable = true)
+ |-- MarketingFlags: boolean (nullable = true)
+ |-- MarketingFlags_content: string (nullable = true)
+ |-- options: string (nullable = true)
+ |-- details: string (nullable = true)
+ |-- how_to_use: string (nullable = true)
+ |-- ingredients: string (nullable = true)
+ |-- online_only: long (nullable = true)
+ |-- exclusive: long (nullable = true)
+ |-- limited_edition: long (nullable = true)
+ |-- limited_time_offer: long (nullable = true)
+
+2025-10-29 18:06:21,907 [WARNING] /Users/kaancakir/data_projects_local/sephora-pipeline/venv/lib/python3.13/site-packages/pyspark/sql/pandas/utils.py:37: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(pandas.__version__) < LooseVersion(minimum_pandas_version):
+
+2025-10-29 18:06:23,121 [INFO]  6 expectation(s) included in expectation_suite. 
+2025-10-29 18:06:23,123 [INFO] All Great Expectations checks passed successfully.
+2025-10-29 18:06:23,726 [INFO] Saved processed data: /Users/kaancakir/data_projects_local/sephora-pipeline/data/processed/sephora/processed_raw_sephora_website_dataset.parquet
+2025-10-29 18:06:23,750 [INFO] Uploaded marker file for processed/sephora/processed_raw_sephora_website_dataset.parquet
+2025-10-29 18:06:23,751 [INFO] Closing down clientserver connection

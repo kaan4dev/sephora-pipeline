@@ -1,0 +1,48 @@
+(venv) kaancakir@Kaans-MacBook-Air sephora-pipeline % python src/extract.py
+2025-10-29 18:05:41,184 [INFO] Working Directory is Set To: /Users/kaancakir/data_projects_local/sephora-pipeline
+2025-10-29 18:05:41,345 [INFO] Loaded sephora_website_dataset.csv -> 9168 rows, 21 columns
+2025-10-29 18:05:41,358 [INFO] Preview of sephora_website_dataset:
+        id           brand   category                            name  ... online_only  exclusive  limited_edition  limited_time_offer
+0  2218774  Acqua Di Parma  Fragrance  Blu Mediterraneo MINIATURE Set  ...           1          0                0                   0
+1  2044816  Acqua Di Parma    Cologne                         Colonia  ...           1          0                0                   0
+2  1417567  Acqua Di Parma    Perfume                Arancia di Capri  ...           1          0                0                   0
+
+[3 rows x 21 columns]
+2025-10-29 18:05:41,498 [INFO] Saved to /Users/kaancakir/data_projects_local/sephora-pipeline/data/raw_parquet/sephora/raw_sephora_website_dataset.parquet
+2025-10-29 18:05:41,498 [WARNING] Azure credentials not found in .env; skipping upload.
+(venv) kaancakir@Kaans-MacBook-Air sephora-pipeline % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s

@@ -1,0 +1,46 @@
+(venv) kaancakir@Kaans-MacBook-Air sephora-pipeline % python src/load.py 
+Uploaded /Users/kaancakir/data_projects_local/sephora-pipeline/data/processed/sephora/processed_raw_sephora_website_dataset.parquet/part-00000-604f685e-461b-47f9-b18a-fbc4de68f52f-c000.snappy.parquet -> processed/sephora/part-00000-604f685e-461b-47f9-b18a-fbc4de68f52f-c000.snappy.parquet (Azure Data Lake)
+(venv) kaancakir@Kaans-MacBook-Air sephora-pipeline % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
